@@ -4,6 +4,7 @@ import requests
 from tqdm import tqdm
 import time
 
+#Read Json file
 def read_json_data(json_file_path):
     with open(json_file_path, 'r') as file:
         try:
