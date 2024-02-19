@@ -2,8 +2,8 @@ import requests
 import json
 from create_json_from_pcc_endpoints import fetch_and_save_pcc_data
 
-orgId='Add value here'
-facId='Add value here'
+orgId='Add value here' #Orginization ID needs to be given by pcc
+facId='Add value here' #Each tenant in pcc has an id wich is saved in the tenants table in the emrID coulmn
 #login info
 data = {
 
